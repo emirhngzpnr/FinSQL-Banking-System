@@ -43,13 +43,20 @@ The database is structured with:
 ## 📂 Project Structure
 
 ```
-00_create_db.sql
-01_schema.sql
-02_constraints.sql
-03_triggers.sql
-04_procedures.sql
-05_seed.sql
-06_demo_scenarios.sql
+/
+├── README.md
+├── docs/
+│   └── rapor.pdf
+├── images/
+│   └── diagram.png
+└── scripts/
+    ├── 00_database.sql
+    ├── 01_schema.sql
+    ├── 02_constraints.sql
+    ├── 03_triggers.sql
+    ├── 04_procedures.sql
+    ├── 05_seed.sql
+    └── 06_demo_scenarios.sql
 ```
 
 ---
